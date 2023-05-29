@@ -1,0 +1,18 @@
+[package]
+name = "mandel-rs"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies.rayon]
+version = "1"
+default-features = false
+
+[dependencies.image]
+version = "0.24"
+default-features = false
+features = ["ico"]
+
+[dependencies.clap]
+version = "4"
+default-features = false
+features = ["std", "derive", "help"]
